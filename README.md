@@ -1,3 +1,9 @@
+# Fixed wineprefix error
+
+removed code for wineprefix creation causing error shown below. 
+w_die wine cmd.exe /c echo '%ProgramFiles%' returned unexpanded string '%SystemDrive%\Program Files'
+
+
 # Winetricks
 [![Build Status](https://travis-ci.org/Winetricks/winetricks.svg?branch=master)](https://travis-ci.org/Winetricks/winetricks) [![License](http://img.shields.io/:license-lgpl-green.svg)](https://tldrlegal.com/license/gnu-lesser-general-public-license-v2.1-(lgpl-2.1))
 
